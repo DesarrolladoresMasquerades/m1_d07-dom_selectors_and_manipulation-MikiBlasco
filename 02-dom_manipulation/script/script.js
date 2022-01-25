@@ -32,6 +32,7 @@ actionButton.addEventListener(
         console.log(inputToDo.value)
         addToDoItem(inputToDo.value)
         inputToDo.value = ""
+        inputToDo.focus()
  }
 )
 
